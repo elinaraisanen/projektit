@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Ota yhteyttä</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Elina Räisänen">
+        <link href="css/css-reset.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/Raisanen-Elina.css" media="screen">    
+        
+    </head>
+   <body>
+       <div class="lomake">
+            
+            <header>
+              
+                <h1>Ota yhteyttä</h1>
+                
+               
+                    
+                
+            </header>
+            
+  
+           
+           
+           
+           <nav>
+                
+                <ul>
+            
+                    
+                    <li> <a class="linkki" href="index.html" <span class="n">&#8251;&nbsp;</span>Minä</a></li>
+                    <li> <a class="linkki" href="tietojenkäsittelyelinaraisanen.html" <span class="k">&#9998;&nbsp;</span>Opiskelu</a></li>
+                    <li> <a class="linkki" href="huvitteluelinaraisanen.html" <span class="r">&#9884;&nbsp;</span>Vapaa-aika</a></li>
+                    <li> <a class="linkki" href="kuviaelinaraisanen.html" <span class="s">&#9825;&nbsp;</span>Kuvia</a></li>
+                    <li> <a class="linkki" href="lomakeelinaraisanen.html" <span class="y">&#9993;&nbsp;</span>Ota yhteyttä</a></li>
+                    
+                    
+                </ul>
+                
+            </nav>
+           
+      
+           
+           
+           
+           <fieldset class="jutut1">
+                    
+                    <legend>Lähetyksen syy</legend>
+                    <input class="napsu" type="radio" name="muoto" id="ympyrä" value="palaute" checked>Palaute</label> <br>
+                    <input class="napsu" type="radio" name="muoto" id="ympyrä" value="yhteydenottopyyntö" >Yhteydenottopyyntö</label><br>
+                    <input class="napsu" type="radio" name="muoto" id="ympyrä" value="reklamaatio">Reklamaatio</label>
+ 
+                </fieldset> 
+           
+                
+           
+              
+                <fieldset class="jutut">
+                    <legend>Yhteydenotto</legend>
+                    <input class="napsu" type="checkbox" name="valine[]" id="sposti" value="sposti">Sähköposti</label> <br>
+                    <input class="napsu" type="checkbox" name="valine[]" id="puhelin" value="puhelin" >Puhelin</label>
+                    <input class="puhnro" text="teksti" placeholder="Puhelinnumero"><br>
+                </fieldset>
+ 
+
+                
+               
+                <label for="lähettäjä"><br>Lähettäjä</label> 
+                
+                <input text="teksti" placeholder="Etunimi Sukunimi" > 
+                
+                <label for="sposti"><br>Sähköposti</label> 
+                
+                <input text="teksti" placeholder="nimi@esimerkki.com"> 
+                
+
+           
+                <label for="otsikko"><br>Otsikko</label> 
+                
+                <input text="teksti"> 
+                
+                <label for="viesti"><br>Viesti</label>
+                
+                <textarea id="viesti" rows="8" cols="50"></textarea> 
+                
+                
+                <div class="napit">
+                    <input type="reset" value="Tyhjennä">
+                    <input type="submit" value="Lähetä">
+                    
+                </div>
+            
+              <footer>
+                <p class="yksi">Elina Räisänen</p>
+                <p class="kaksi">Harjoitustyö<br>2018</p>
+                
+            </footer>    
+        
+    </body>
+</html>

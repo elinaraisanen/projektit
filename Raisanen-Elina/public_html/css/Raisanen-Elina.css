@@ -1,0 +1,380 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11.10.2018, 8:23:35
+    Author     : raisa
+*/
+
+
+
+div {
+    max-width: 100px;
+    margin-left: 1em;
+    font-family: tahoma;
+}
+a.hover {
+    text-decoration: underline;
+}
+
+body {
+
+    background-color: #FFEDE5;
+}
+
+
+
+div,
+nav,
+header{ 
+    background-color: snow;
+      max-width: 960px;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 5px;
+      font-family: arial;
+      border-radius: 40px;
+      padding-left: 15px;
+      padding-right: 15px;
+      
+}
+
+figcaption {
+    padding-left: 25px;
+}
+
+nav li {
+display: inline-block;
+}
+
+nav li a {
+background-color: #FFFFFF;
+line-height: 2em;
+display: block;
+padding-left: 1em;
+padding-right: 1em;
+
+}
+
+.linkki:hover {
+  background-color: #D5C0B9;;  
+}
+
+nav ul {
+padding-left: 0px;
+margin: 0px;
+background-color: #FFFFFF;
+}
+
+
+
+
+footer {
+    
+    display: inline-block;
+    width: 960px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+}
+   
+    
+    
+
+
+p.yksi {
+
+    float: left;
+    padding: 5px;
+
+}
+
+p.kaksi {
+     
+    text-align: right;
+    padding: 5px;
+    float: right;
+}
+
+p.minä {
+    text-align: left;
+ 
+}
+
+h1 {
+    font-size: 2.5em;
+    padding: 1.5em;
+    font-family: tahoma;
+}
+
+h2 {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+h1.nimi1{
+    font-family: inherit;
+    font-style: italic;
+    text-align: left;
+    width: 400px ;
+    max-width: 100% ;
+    margin-left: auto ;
+    margin-right: auto ;
+   
+ 
+    
+}
+
+.nimi1 {
+    text-align: left;
+    width: 400px ;
+    max-width: 100%;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding-bottom: 20px;
+ 
+    
+}
+
+
+
+.Omakuva {
+
+float: left;
+margin-top: 50px;
+}
+
+
+.lukuk {
+    text-align: center;
+    background-color: #D5C0B9;
+    font-weight: bold;
+}
+
+
+th, td {
+    border: black 2px outset;
+
+}
+
+
+
+tr:nth-last-child(even) {
+    background-color:  #FFDACC;
+}
+
+a:hover {
+    text-decoration: underline black;
+}
+a {
+    color: black;
+}
+
+.help {
+    cursor: help;}
+
+
+.lista {
+    border: dotted black 2px;
+    display: inline-block;
+    padding: 0px;
+    height: 225px;
+    width: 225px;
+    vertical-align: top;
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+.lista h2 {
+    margin-top: 0px;
+    line-height: 2em;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    text-decoration: underline;
+    background-color: #D5C0B9;
+    border-bottom: dotted;
+    
+    
+}
+
+ul {
+    list-style: disc;
+    list-style-position:  inside;
+    padding:10px;
+}
+
+section {
+    margin-top: 1em;
+    margin-right: 1em;
+    padding-top: 0.5em;
+    display: inline-block;
+    width: 15em;
+    vertical-align: top;
+    border-top: 1px black;
+}
+
+.rate {
+  float: left;
+  height: 46px;
+  padding: 10px 10px 10px 10px;
+
+}
+
+ 
+
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+
+}
+
+ 
+
+.rate:not(:checked) > label {
+
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+
+}
+
+.rate:not(:checked) > label:before { 
+    content: '★ ';
+}
+
+ 
+
+.rate > input:checked ~ label {
+    
+    color: #D5C0B9; 
+}
+
+ 
+
+.rate:not(:checked) > label:hover, .rate:not(:checked) > label:hover ~ label {
+    color: #D5C0B9;
+}
+
+ 
+
+.rate > input:checked + label:hover, .rate > input:checked + label:hover ~ label, .rate > input:checked ~ label:hover, .rate > input:checked ~ label:hover ~ label, .rate > label:hover ~ input:checked ~ label { 
+    color: #D5C0B9; 
+}
+
+
+img {
+    max-width: 200px;
+   border: #D5C0B9 solid 3px;
+   max-height: 150px;
+   margin-left: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    width: 5em;
+}
+
+label [for] {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 6.5em;
+}
+
+
+
+   .jutut {
+    display: block;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 20px;
+    padding-right: 1em;
+    float: right;
+    clear: both;
+    border: solid black 1px;
+  
+
+}
+
+
+.jutut1 {
+    display: block;
+    margin-left: 10px;
+    margin-right: 1px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 6px;
+    padding-right: 8em;
+    float: right;
+    clear: both;
+    border: solid black 1px;
+}
+
+
+y {
+  content: "\2709";
+}
+
+k {
+    content: "\270E";
+}
+
+n {
+    content: "\203B";
+}
+
+s {
+    content: "\2661";
+}
+
+r {
+    content: "\2707";
+}
+
+
+p {
+    line-height: 1.2em;
+    padding-bottom: 0.5em;
+}
+
+input {
+    width: 15em;
+    margin-top: 3px;
+}
+
+
+.napsu {
+    width: 50px;
+}
+
+.puhnro {
+    width: 13.4em;
+}
+
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-top: 10px;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+
+.napit {
+    padding-left: 0px;
+}
