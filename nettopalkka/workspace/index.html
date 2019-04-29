@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Nettopalkka</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/muoks.css">
+    </head>
+    
+    <body>
+        <h3>Nettopalkka</h3>
+
+        <form action="palkka.php" method="post">
+            <div>
+             <label class="col-3" for="brutto">Bruttopalkka:</label> 
+            <input id="brutto" name="brutto" type="number" step="0.01" >
+            </div>
+            
+            <div>
+            <label class="col-3" for="ennakko">Ennakonpidätys:</label> 
+            <input type="number" id="ennakko" name="ennakko" step="0.01" >
+            </div>
+            
+            <div>
+            <label class="col-3" for="elake">Työeläkemaksu:</label> 
+            <input type="number" id="elake" name="elake" step="0.01">
+            </div>
+            
+            <div>
+            <label class="col-3" for="tvm">Työttömyysvakuutusmaksu:</label> 
+            <input type="number" id="tvm" name="tvm" step="0.01">
+            </div>
+            
+            <div>
+            <button class="btn btn-outline-secondary">Laske</button>
+            </div>
+        </form>
+    </body>
+    
+</html>
